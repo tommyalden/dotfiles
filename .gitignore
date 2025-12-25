@@ -1,1 +1,10 @@
-nvim/nvim-pack-lock.json
+# Ignore all
+*
+
+# Specific files
+!/ghostty/
+!/hypr/
+!/nvim/
+!/waybar/
+
+/nvim/nvim-pack-lock.json
