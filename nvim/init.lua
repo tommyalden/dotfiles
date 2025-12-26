@@ -125,3 +125,5 @@ map('n', '<leader>0', ":tablast<cr>", opts)
 
 map('n', '<leader>e', ':Oil<CR>', opts)
 map('n', '<leader>f', ':Pick files<CR>', opts)
+
+map('n', '<leader>c', ':noh<CR>', opts)
