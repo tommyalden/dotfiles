@@ -1,11 +1,12 @@
 # Ignore all
 *
+!*/
 
 # Specific files
-!/ghostty/
-!/hypr/
-!/nvim/
-!/waybar/
+!/ghostty/**
+!/hypr/**
+!/nvim/**
+!/waybar/**
 !README.md
 !LICENSE
 
