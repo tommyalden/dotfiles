@@ -95,6 +95,11 @@ require('oil').setup({
 
 -- LSP
 vim.lsp.enable('clangd')
+vim.lsp.config('emmet_language_server', {
+    filetypes = { 'astro', 'css', 'html', 'javascriptreact', 'typescriptreact', 'scss', 'sass', 'vue', 'svelte' }
+})
+vim.lsp.enable('emmet_language_server')
+vim.lsp.enable('cssls')
 
 -- Theme
 require('onedark').load()
